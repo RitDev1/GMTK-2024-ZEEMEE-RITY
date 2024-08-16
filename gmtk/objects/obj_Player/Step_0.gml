@@ -1,12 +1,18 @@
+image_xscale = scale
+image_yscale = scale
+
 var move_h = keyboard_check(vk_right) - keyboard_check(vk_left)
 var jump = keyboard_check(vk_up)
 
 hspd = spd*move_h
 
-if (!on_air && jump)
+if place_meeting(x, y + 1, obj_Wall)
 {
-	vspd = -spd*1.5
-	on_air = true
+	if (!on_air && jump)
+	{
+		vspd = -spd*1.5
+		on_air = true
+	}
 }
 
 vspd += grav	
@@ -29,6 +35,23 @@ if place_meeting(x, y + vspd, obj_Wall)
 	vspd = 0
 	on_air = false
 }
+
+if (place_meeting(x, y, obj_Door) && keyboard_check(vk_up))
+{
+	if (scale == 1) room_goto_next()
+}
+
+if (keyboard_check_pressed(ord("Z")))
+{
+	scale -= 1
+}
+else if (keyboard_check_pressed(ord("X")))
+{
+	scale += 1
+}
+
+scale = max(1, scale)
+scale = min(scale, 5)
 
 
 x += hspd

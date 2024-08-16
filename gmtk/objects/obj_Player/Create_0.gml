@@ -3,4 +3,6 @@ grav = 0.08
 hspd = 0
 vspd = 0
 
+scale = 3
+
 on_air = true
