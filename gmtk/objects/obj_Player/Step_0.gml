@@ -1,3 +1,6 @@
+image_xscale = scale
+image_yscale = scale
+
 var move_h = keyboard_check(vk_right) - keyboard_check(vk_left)
 var jump = keyboard_check(vk_up)
 
@@ -29,6 +32,18 @@ if place_meeting(x, y + vspd, obj_Wall)
 	vspd = 0
 	on_air = false
 }
+
+if (keyboard_check_pressed(ord("Z")))
+{
+	scale -= 1
+}
+else if (keyboard_check_pressed(ord("X")))
+{
+	scale += 1
+}
+
+scale = max(1, scale)
+scale = min(scale, 5)
 
 
 x += hspd
