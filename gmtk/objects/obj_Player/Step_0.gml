@@ -5,7 +5,7 @@ hspd = spd*move_h
 
 if (!on_air && jump)
 {
-	vspd = -spd
+	vspd = -spd*1.5
 	on_air = true
 }
 
@@ -24,7 +24,7 @@ if place_meeting(x, y + vspd, obj_Wall)
 {
 	while !place_meeting(x, y + sign(vspd), obj_Wall)
 	{
-		y += sign(hspd)
+		y += sign(vspd)
 	}
 	vspd = 0
 	on_air = false
