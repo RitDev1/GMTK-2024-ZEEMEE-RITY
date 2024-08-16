@@ -36,7 +36,8 @@
     {"id":{"name":"obj_Door","path":"objects/obj_Door/obj_Door.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},},
-    {"id":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
+    {"id":{"name":"rm_lvl01","path":"rooms/rm_lvl01/rm_lvl01.yy",},},
+    {"id":{"name":"rm_lvl02","path":"rooms/rm_lvl02/rm_lvl02.yy",},},
     {"id":{"name":"spr_Door","path":"sprites/spr_Door/spr_Door.yy",},},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},},
     {"id":{"name":"spr_Wall","path":"sprites/spr_Wall/spr_Wall.yy",},},
@@ -44,7 +45,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
+    {"roomId":{"name":"rm_lvl01","path":"rooms/rm_lvl01/rm_lvl01.yy",},},
+    {"roomId":{"name":"rm_lvl02","path":"rooms/rm_lvl02/rm_lvl02.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[

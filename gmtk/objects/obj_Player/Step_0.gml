@@ -15,7 +15,6 @@ if place_meeting(x, y + 1, obj_Wall)
 	}
 }
 
-
 vspd += grav	
 
 if place_meeting(x + hspd, y, obj_Wall)
@@ -35,6 +34,11 @@ if place_meeting(x, y + vspd, obj_Wall)
 	}
 	vspd = 0
 	on_air = false
+}
+
+if (place_meeting(x, y, obj_Door) && keyboard_check(vk_up))
+{
+	if (scale == 1) room_goto_next()
 }
 
 if (keyboard_check_pressed(ord("Z")))
