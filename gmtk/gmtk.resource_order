@@ -1,7 +1,9 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_Door","order":2,"path":"objects/obj_Door/obj_Door.yy",},
     {"name":"obj_Wall","order":1,"path":"objects/obj_Wall/obj_Wall.yy",},
+    {"name":"spr_Door","order":2,"path":"sprites/spr_Door/spr_Door.yy",},
     {"name":"spr_Wall","order":1,"path":"sprites/spr_Wall/spr_Wall.yy",},
   ],
 }

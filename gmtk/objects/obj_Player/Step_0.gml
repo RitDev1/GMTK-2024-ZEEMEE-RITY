@@ -6,11 +6,15 @@ var jump = keyboard_check(vk_up)
 
 hspd = spd*move_h
 
-if (!on_air && jump)
+if place_meeting(x, y + 1, obj_Wall)
 {
-	vspd = -spd*1.5
-	on_air = true
+	if (!on_air && jump)
+	{
+		vspd = -spd*1.5
+		on_air = true
+	}
 }
+
 
 vspd += grav	
 
