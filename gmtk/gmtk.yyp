@@ -29,10 +29,11 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2022.0.0.19",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"gmtk",
   "resources":[
+    {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
     {"id":{"name":"spr_Player","path":"sprites/spr_Player/spr_Player.yy",},},
   ],
