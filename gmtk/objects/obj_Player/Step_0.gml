@@ -38,21 +38,35 @@ if place_meeting(x, y + vspd, obj_Wall)
 
 if (place_meeting(x, y, obj_Door) && keyboard_check(vk_up))
 {
+	
 	if (scale == 1) room_goto_next()
 }
 
-if (keyboard_check_pressed(ord("Z")))
+if (keyboard_check(ord("Z")))
 {
-	scale -= 1
+	
+		scale -= scale_speed 
 }
-else if (keyboard_check_pressed(ord("X")))
+else if (keyboard_check(ord("X")))
 {
-	scale += 1
+	if(!place_meeting(x, y, obj_Wall)) {
+	scale += scale_speed }
 }
 
 scale = max(1, scale)
 scale = min(scale, 5)
 
+if(place_meeting(x,y,obj_Spike)) {
+	game_over = true
+}
+
+if(game_over == true) {
+	room_restart() 
+}
+
+if(y > 300) {
+	game_over = true
+}
 
 x += hspd
 y += vspd
