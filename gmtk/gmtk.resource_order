@@ -6,6 +6,7 @@
     {"name":"obj_Spike","order":4,"path":"objects/obj_Spike/obj_Spike.yy",},
     {"name":"obj_Wall","order":1,"path":"objects/obj_Wall/obj_Wall.yy",},
     {"name":"rm_lv03","order":2,"path":"rooms/rm_lv03/rm_lv03.yy",},
+    {"name":"rm_lv04","order":3,"path":"rooms/rm_lv04/rm_lv04.yy",},
     {"name":"rm_lvl02","order":1,"path":"rooms/rm_lvl02/rm_lvl02.yy",},
     {"name":"spr_Door","order":2,"path":"sprites/spr_Door/spr_Door.yy",},
     {"name":"spr_Spike","order":3,"path":"sprites/spr_Spike/spr_Spike.yy",},

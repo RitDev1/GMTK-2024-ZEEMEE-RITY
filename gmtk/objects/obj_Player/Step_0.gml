@@ -4,18 +4,18 @@ image_yscale = scale
 var move_h = keyboard_check(vk_right) - keyboard_check(vk_left)
 var jump = keyboard_check(vk_up)
 
-hspd = spd*move_h
+hspd = spd*move_h*(4-scale/2)
 
 if place_meeting(x, y + 1, obj_Wall)
 {
 	if (!on_air && jump)
 	{
-		vspd = -spd*1.5
+		vspd = -spd*1.5*scale
 		on_air = true
 	}
 }
 
-vspd += grav	
+vspd += grav*scale	
 
 if place_meeting(x + hspd, y, obj_Wall)
 {

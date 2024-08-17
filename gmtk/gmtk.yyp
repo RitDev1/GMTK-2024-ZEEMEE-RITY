@@ -39,6 +39,7 @@
     {"id":{"name":"obj_Spike","path":"objects/obj_Spike/obj_Spike.yy",},},
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},},
     {"id":{"name":"rm_lv03","path":"rooms/rm_lv03/rm_lv03.yy",},},
+    {"id":{"name":"rm_lv04","path":"rooms/rm_lv04/rm_lv04.yy",},},
     {"id":{"name":"rm_lvl01","path":"rooms/rm_lvl01/rm_lvl01.yy",},},
     {"id":{"name":"rm_lvl02","path":"rooms/rm_lvl02/rm_lvl02.yy",},},
     {"id":{"name":"spr_Door","path":"sprites/spr_Door/spr_Door.yy",},},
@@ -51,6 +52,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_lvl01","path":"rooms/rm_lvl01/rm_lvl01.yy",},},
     {"roomId":{"name":"rm_lvl02","path":"rooms/rm_lvl02/rm_lvl02.yy",},},
+    {"roomId":{"name":"rm_lv04","path":"rooms/rm_lv04/rm_lv04.yy",},},
     {"roomId":{"name":"rm_lv03","path":"rooms/rm_lv03/rm_lv03.yy",},},
   ],
   "templateType":null,

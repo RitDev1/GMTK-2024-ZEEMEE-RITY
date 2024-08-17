@@ -1,5 +1,5 @@
 spd = 2
-grav = 0.08
+grav = 0.2
 hspd = 0
 vspd = 0
 scale_speed = 0.1
