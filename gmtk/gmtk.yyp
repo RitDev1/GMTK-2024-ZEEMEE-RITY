@@ -57,13 +57,13 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"rm_lv07","path":"rooms/rm_lv07/rm_lv07.yy",},},
     {"roomId":{"name":"rm_lv06","path":"rooms/rm_lv06/rm_lv06.yy",},},
     {"roomId":{"name":"rm_tests","path":"rooms/rm_tests/rm_tests.yy",},},
     {"roomId":{"name":"rm_lvl01","path":"rooms/rm_lvl01/rm_lvl01.yy",},},
     {"roomId":{"name":"rm_lvl02","path":"rooms/rm_lvl02/rm_lvl02.yy",},},
     {"roomId":{"name":"rm_lv04","path":"rooms/rm_lv04/rm_lv04.yy",},},
     {"roomId":{"name":"rm_lv05","path":"rooms/rm_lv05/rm_lv05.yy",},},
-    {"roomId":{"name":"rm_lv07","path":"rooms/rm_lv07/rm_lv07.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
