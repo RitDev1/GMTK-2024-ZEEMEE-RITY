@@ -28,7 +28,8 @@ if place_meeting(x, y + vspd, obj_Wall) || place_meeting(x, y + vspd, obj_Purple
     }
 else
     {
-    on_air = true
+        if place_meeting(x - 5*hspd, y, obj_Wall) on_air = false
+		else on_air = true
     }
 
 if jump
@@ -36,7 +37,6 @@ if jump
     if !on_air && !place_meeting(x, y - 1, obj_Wall)
         {
         vspd = -spd * 1.5 * scale
-        on_air = true
         }
     else if place_meeting(x-1, y, obj_PurpleWall)||place_meeting(x+1, y, obj_PurpleWall)
         {
