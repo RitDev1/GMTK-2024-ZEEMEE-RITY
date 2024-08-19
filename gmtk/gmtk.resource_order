@@ -18,6 +18,8 @@
     {"name":"rm_lv06","order":6,"path":"rooms/rm_lv06/rm_lv06.yy",},
     {"name":"rm_lvl03","order":1,"path":"rooms/rm_lvl03/rm_lvl03.yy",},
     {"name":"rm_mlv01","order":9,"path":"rooms/rm_mlv01/rm_mlv01.yy",},
+    {"name":"rm_lv07","order":7,"path":"rooms/rm_lv07/rm_lv07.yy",},
+    {"name":"rm_lvl02","order":1,"path":"rooms/rm_lvl02/rm_lvl02.yy",},
     {"name":"rm_tests","order":5,"path":"rooms/rm_tests/rm_tests.yy",},
     {"name":"spr_Door","order":2,"path":"sprites/spr_Door/spr_Door.yy",},
     {"name":"spr_MovPlat","order":5,"path":"sprites/spr_MovPlat/spr_MovPlat.yy",},
