@@ -17,6 +17,7 @@ if place_meeting(x + hspd, y, obj_Wall) || place_meeting(x + hspd, y, obj_Purple
     hspd = 0
     }
 
+//Colisão
 if place_meeting(x, y + vspd, obj_Wall) || place_meeting(x, y + vspd, obj_PurpleWall)
     {
     while !place_meeting(x, y + sign(vspd), obj_Wall) && !place_meeting(x, y + sign(vspd), obj_PurpleWall)
@@ -28,15 +29,35 @@ if place_meeting(x, y + vspd, obj_Wall) || place_meeting(x, y + vspd, obj_Purple
     }
 else
     {
-    on_air = true
+        if place_meeting(x - 5*hspd, y, obj_Wall) on_air = false
+		else on_air = true
     }
+
+//Colisão Especial
+if (vspd >= 0)
+{
+	if place_meeting(x, y + vspd, obj_MovPlat) && !place_meeting(x, y, obj_MovPlat)
+	{
+		while !place_meeting(x, y + 1 - obj_MovPlat.spd, obj_MovPlat)
+		{
+			y += 1
+		}
+	movplat = true
+	}
+}
+
+if(movplat)
+{
+	vspd = -obj_MovPlat.spd
+	on_air = false
+}
 
 if jump
     {
+	movplat = false
     if !on_air && !place_meeting(x, y - 1, obj_Wall)
         {
         vspd = -spd * 1.5 * scale
-        on_air = true
         }
     else if place_meeting(x-1, y, obj_PurpleWall)||place_meeting(x+1, y, obj_PurpleWall)
         {
