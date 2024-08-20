@@ -71,6 +71,8 @@
     {"id":{"name":"spr_RedWall","path":"sprites/spr_RedWall/spr_RedWall.yy",},},
     {"id":{"name":"spr_Spike","path":"sprites/spr_Spike/spr_Spike.yy",},},
     {"id":{"name":"spr_Wall","path":"sprites/spr_Wall/spr_Wall.yy",},},
+    {"id":{"name":"tileset","path":"sprites/tileset/tileset.yy",},},
+    {"id":{"name":"tl_Ground","path":"tilesets/tl_Ground/tl_Ground.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
