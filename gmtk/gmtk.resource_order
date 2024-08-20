@@ -36,5 +36,6 @@
     {"name":"spr_RedWall","order":6,"path":"sprites/spr_RedWall/spr_RedWall.yy",},
     {"name":"spr_Spike","order":3,"path":"sprites/spr_Spike/spr_Spike.yy",},
     {"name":"spr_Wall","order":1,"path":"sprites/spr_Wall/spr_Wall.yy",},
+    {"name":"tileset","order":9,"path":"sprites/tileset/tileset.yy",},
   ],
 }
