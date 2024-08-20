@@ -34,7 +34,7 @@ if place_meeting(x, y + vspd, obj_Wall) || place_meeting(x, y + vspd, obj_Purple
 }
 else
 {
-    if place_meeting(x - 5 * hspd, y, obj_Wall) on_air = false;
+    if place_meeting(x - 5 * hspd, y+1, obj_Wall) && !place_meeting(x - 5*hspd, y - 5*vspd, obj_Wall) on_air = false;
     else on_air = true;
 }
 
