@@ -27,6 +27,7 @@
     {"name":"rm_lv06","order":6,"path":"rooms/rm_lv06/rm_lv06.yy",},
     {"name":"rm_lvl03","order":1,"path":"rooms/rm_lvl03/rm_lvl03.yy",},
     {"name":"rm_mlv01","order":9,"path":"rooms/rm_mlv01/rm_mlv01.yy",},
+    {"name":"rm_mlv02","order":19,"path":"rooms/rm_mlv02/rm_mlv02.yy",},
     {"name":"rm_tests","order":5,"path":"rooms/rm_tests/rm_tests.yy",},
     {"name":"spr_BlueWall","order":7,"path":"sprites/spr_BlueWall/spr_BlueWall.yy",},
     {"name":"spr_Door","order":2,"path":"sprites/spr_Door/spr_Door.yy",},

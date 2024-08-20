@@ -34,7 +34,7 @@ if place_meeting(x, y + vspd, obj_Wall) || place_meeting(x, y + vspd, obj_Purple
 }
 else
 {
-    if place_meeting(x - 5 * hspd, y, obj_Wall) on_air = false;
+    if place_meeting(x - 5 * hspd, y+1, obj_Wall) && !place_meeting(x - 5*hspd, y - 5*vspd, obj_Wall) on_air = false;
     else on_air = true;
 }
 
@@ -75,7 +75,7 @@ if (movplat && !place_meeting(x, y + 1, obj_MovPlat))
     movplat = false;
 }
 
-// Checa colisão com paredes coloridas para alteração de escala
+
 if place_meeting(x, y + 1, obj_RedWall)
 {
     scale -= 0.4; 
@@ -86,16 +86,6 @@ if place_meeting(x, y + 1, obj_BlueWall) && !place_meeting(x-2, y-5, obj_Wall) &
     scale += 0.4; 
 }
 
-// Colisão com a GreenWall que muda de tamanho junto com o jogador
-if place_meeting(x, y + 1, obj_GreenWall)
-{
-    // A GreenWall deve ajustar sua escala com base na escala do jogador
-    with (obj_GreenWall)
-    {
-        image_xscale = other.scale;
-        image_yscale = other.scale;
-    }
-}
 
 // Verifica se o jogador está pulando
 if jump
