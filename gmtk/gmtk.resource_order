@@ -3,6 +3,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_BlueWall","order":8,"path":"objects/obj_BlueWall/obj_BlueWall.yy",},
     {"name":"obj_Door","order":2,"path":"objects/obj_Door/obj_Door.yy",},
+    {"name":"obj_GreenWall","order":9,"path":"objects/obj_GreenWall/obj_GreenWall.yy",},
     {"name":"obj_MovPlat","order":6,"path":"objects/obj_MovPlat/obj_MovPlat.yy",},
     {"name":"obj_PurpleWall","order":5,"path":"objects/obj_PurpleWall/obj_PurpleWall.yy",},
     {"name":"obj_RedWall","order":7,"path":"objects/obj_RedWall/obj_RedWall.yy",},
@@ -29,6 +30,7 @@
     {"name":"rm_tests","order":5,"path":"rooms/rm_tests/rm_tests.yy",},
     {"name":"spr_BlueWall","order":7,"path":"sprites/spr_BlueWall/spr_BlueWall.yy",},
     {"name":"spr_Door","order":2,"path":"sprites/spr_Door/spr_Door.yy",},
+    {"name":"spr_GreenWall","order":8,"path":"sprites/spr_GreenWall/spr_GreenWall.yy",},
     {"name":"spr_MovPlat","order":5,"path":"sprites/spr_MovPlat/spr_MovPlat.yy",},
     {"name":"spr_PurpleWall","order":4,"path":"sprites/spr_PurpleWall/spr_PurpleWall.yy",},
     {"name":"spr_RedWall","order":6,"path":"sprites/spr_RedWall/spr_RedWall.yy",},
