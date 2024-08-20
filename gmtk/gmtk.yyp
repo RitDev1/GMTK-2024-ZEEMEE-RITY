@@ -95,8 +95,8 @@
     {"roomId":{"name":"rm_lv06","path":"rooms/rm_lv06/rm_lv06.yy",},},
     {"roomId":{"name":"rm_lv06","path":"rooms/rm_lv06/rm_lv06.yy",},},
     {"roomId":{"name":"rm_lv05","path":"rooms/rm_lv05/rm_lv05.yy",},},
-    {"roomId":{"name":"rm_mlv01","path":"rooms/rm_mlv01/rm_mlv01.yy",},},
     {"roomId":{"name":"rm_lvl04","path":"rooms/rm_lvl04/rm_lvl04.yy",},},
+    {"roomId":{"name":"rm_mlv01","path":"rooms/rm_mlv01/rm_mlv01.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
