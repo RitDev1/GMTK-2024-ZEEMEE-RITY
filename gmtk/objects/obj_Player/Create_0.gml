@@ -8,3 +8,4 @@ game_over = false
 on_air = true
 spawn = instance_find(obj_Spawn,0)
 movplat = false
+sound = false

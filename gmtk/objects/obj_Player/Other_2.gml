@@ -1,0 +1,1 @@
+audio_play_sound(loop, 0, 1, 0.5)

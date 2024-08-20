@@ -1,0 +1,1 @@
+if !place_meeting(x, y, obj_Door) audio_play_sound(snd_Jump, 0, 0)
